@@ -26,7 +26,7 @@
 /* Стилі для зображень велосипедів */
 .bike-card img {
     border-radius: 5px;
-    max-width: 20%;
+    max-width: 300px;
     height: auto;
     margin-left: 10px; /* Відступ зліва від картинки */
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 2);

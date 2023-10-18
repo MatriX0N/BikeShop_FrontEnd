@@ -15,10 +15,16 @@
         <a href="index.html">Каталог</a>
         <a href="about-us.html">Про нас</a>
         <a href="comparison.html">Порівняння</a>
-        <a class= "basket-button" href="basket.html">
-            <img class= "basket" src="image/basket2.png" alt="Корзина">
-          </a>
+        <a class="basket-button" href="basket.html" id="basket-link">
+            <img class="basket" src="image/basket2.png" alt="Корзина">
+        </a>
+        <div id="cart-count-container" class="cart-count-container">
+            <span id="cart-count" class="cart-count">0</span>
+        </div>
     </nav>
+    <div id="notification" class="notification">
+        Товар додано до корзини
+    </div>
     <div class="container">
         <aside class="sidenav">
             <div class="sidebar">
@@ -270,6 +276,6 @@
     <footer>
         <p>&copy; 2023</p>
     </footer>
-    <script src="scripts/"></script>
+    <script src="scripts/basket.js"></script>
 </body>
 </html>

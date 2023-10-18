@@ -81,3 +81,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+button {
+    cursor: pointer;
+    background-color: #ff6600;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff5500;
+}

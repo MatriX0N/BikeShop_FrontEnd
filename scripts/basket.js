@@ -1,12 +1,12 @@
 // Функція для показу повідомлення
-function showNotification(message) {
-    var notification = document.getElementById("notification");
-    notification.textContent = message;
-    notification.style.display = "block";
-    setTimeout(function () {
-        notification.style.display = "none";
-    }, 3000);
-}
+// function showNotification(message) {
+//     var notification = document.getElementById("notification");
+//     notification.textContent = message;
+//     notification.style.display = "block";
+//     setTimeout(function () {
+//         notification.style.display = "none";
+//     }, 3000);
+// }
 
 // Функція для обробки натискання кнопки "Купити"
 function addToCart() {

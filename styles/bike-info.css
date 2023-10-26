@@ -49,7 +49,7 @@
     color: #ff6600;
 }
 
-.button-container button {
+.button-container-index button {
     background-color: #ff6600;
     color: #fff;
     padding: 10px;
@@ -59,8 +59,9 @@
     transition: background-color 0.3s;
     display: block;
     margin-bottom: 5px;
+    width: 200px;
 }
-.bike-card button:hover {
+.bike-card-index button:hover {
     background-color: #d84800;
 }
 

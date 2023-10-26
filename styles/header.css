@@ -24,9 +24,14 @@ nav {
     color: #fff;
     padding: 5px;
     display: flex;
-    text-align: center;
+    justify-content: space-between; /* Розташування по краях */
     align-items: center;
-    justify-content: center;
+    height: 50px;
+}
+
+.nav-center {
+    display: flex;
+    margin: 0 auto; /* Розмістити по центру */
 }
 
 nav a {
@@ -40,4 +45,13 @@ nav a {
 nav a:hover {
     background-color: #fff;
     color: #333;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.basket-button {
+    margin-left: auto; /* Зсув вправо */
 }

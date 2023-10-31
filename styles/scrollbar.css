@@ -1,4 +1,4 @@
-/* Стилізація скрол-бару для веб-кіт браузерів (Chrome, Safari) */
+/* Змінити мінімальний розмір горизонтального скрол-бару */
 ::-webkit-scrollbar {
     width: 6px; /* Ширина скрол-бару */
 }
@@ -6,6 +6,7 @@
 ::-webkit-scrollbar-thumb {
     background-color: #ff6600; /* Колір бару */
     border-radius: 5px; /* Круглі кути */
+    min-width: 6px; /* Мінімальна ширина бару */
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -20,3 +21,4 @@
 ::-webkit-scrollbar-horizontal {
     display: none;
 }
+

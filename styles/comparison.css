@@ -1,7 +1,7 @@
 .bike-cards-container {
     display: flex;
-    flex-direction: row; /* Горизонтальне розташування велосипедів */
-    overflow-x: auto; /* Додайте горизонтальну прокрутку */
+    flex-direction: row;
+    overflow-x: auto;
 }
 
 .bike-card-comparison {
@@ -11,23 +11,31 @@
     margin: 5px;
     padding: 10px;
     display: flex;
-    align-items: center; /* Вирівнювання по вертикалі по центру */
+    align-items: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    width: 400px; 
-    height: 400px;
-    box-sizing: border-box; /* Ураховує відступи в обчисленні ширини */
-    justify-content: space-between; /* Розміщення контенту по обидва боки */
+    width: 320px;
+    height: 350px;
+    box-sizing: border-box;
+    justify-content: space-between;
     flex-direction: column;
-    margin-left: auto;
+    position: relative;
+}
+
+.bike-card-comparison img {
+    width: 75%;
+    border-radius: 5px;
 }
 
 .characteristics-container {
     width: auto;
-    overflow-x: auto; /* Додайте горизонтальну прокрутку для характеристик */
-    white-space: nowrap; /* Забороніть перенос тексту */
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
-.bike-card-comparison img{
-    width: 75%;
-    border-radius: 5px;
+.vl{
+    width: 310px;
+}
+
+.vl1{
+    width: 245px;
 }

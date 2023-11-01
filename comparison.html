@@ -85,6 +85,9 @@ footer {
             <a href="index.html">Каталог</a>
             <a href="about-us.html">Про нас</a>
             <a href="comparison.html">Порівняння</a>
+            <div id="cart-count-container-index" class="cart-count-container-index">
+                <span id="cart-count-index" class="cart-count-index">0</span>
+            </div>
         </div>
         <div class="nav-right">
             <a class="basket-button" href="basket.html">
@@ -95,14 +98,17 @@ footer {
             </div>
         </div>
     </nav>
+    <div id="notification" class="notification">
+        Товар додано до корзини
+    </div>
     <main class="main">
         <div class="comparison-container">
             <div class="bike-cards-container">
                 <div class="vl"></div>
                 <div class="bike-card-comparison">
                     <img src="image/vibor_rami_11.jpg" alt="Велосипед 1">
-                    <h2>Велосипед 1</h2>
-                    <div class="button-container-index">
+                    <h3>Велосипед 1</h3>
+                    <div class="button-container-comparison">
                         <button>Купити</button>
                         <button>Видалити з порівняння</button>
                     </div>
@@ -110,8 +116,8 @@ footer {
                 <div class="vl1"></div>
                 <div class="bike-card-comparison">
                     <img src="image/vibor_rami_11.jpg" alt="Велосипед 2">
-                    <h2>Велосипед 2</h2>
-                    <div class="button-container-index">
+                    <h3>Велосипед 2</h3>
+                    <div class="button-container-comparison">
                         <button>Купити</button>
                         <button>Видалити з порівняння</button>
                     </div>
@@ -119,8 +125,8 @@ footer {
                 <div class="vl1"></div>
                 <div class="bike-card-comparison">
                     <img src="image/vibor_rami_11.jpg" alt="Велосипед 3">
-                    <h2>Велосипед 3</h2>
-                    <div class="button-container-index">
+                    <h3>Велосипед 3</h3>
+                    <div class="button-container-comparison">
                         <button>Купити</button>
                         <button>Видалити з порівняння</button>
                     </div>
@@ -128,8 +134,8 @@ footer {
                 <div class="vl1"></div>
                 <div class="bike-card-comparison">
                     <img src="image/vibor_rami_11.jpg" alt="Велосипед 4">
-                    <h2>Велосипед 4</h2>
-                    <div class="button-container-index">
+                    <h3>Велосипед 4</h3>
+                    <div class="button-container-comparison">
                         <button>Купити</button>
                         <button>Видалити з порівняння</button>
                     </div>
@@ -137,8 +143,8 @@ footer {
                 <div class="vl1"></div>
                 <div class="bike-card-comparison">
                     <img src="image/vibor_rami_11.jpg" alt="Велосипед 4">
-                    <h2>Велосипед 5</h2>
-                    <div class="button-container-index">
+                    <h3>Велосипед 5</h3>
+                    <div class="button-container-comparison">
                         <button>Купити</button>
                         <button>Видалити з порівняння</button>
                     </div>
@@ -321,5 +327,6 @@ footer {
     <footer>
         <p>&copy; 2023</p>
     </footer>
+    <script src="scripts/comparison.js"></script>
 </body>
 </html>

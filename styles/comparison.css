@@ -14,7 +14,7 @@
     align-items: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
     width: 320px;
-    height: 350px;
+    height: 290px;
     box-sizing: border-box;
     justify-content: space-between;
     flex-direction: column;
@@ -38,4 +38,21 @@
 
 .vl1{
     width: 245px;
+}
+
+.button-container-comparison button{
+    background-color: #ff6600;
+    color: #fff;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin-bottom: 5px;
+    width: 200px;
+}
+
+.bike-card-comparison button:hover {
+    background-color: #d84800;
 }

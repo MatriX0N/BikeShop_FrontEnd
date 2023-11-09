@@ -5,6 +5,8 @@
 @import "styles/sidebar.css";
 @import "styles/basket.css";
 @import "styles/characteristics.css";
+@import "styles/comparison.css";
+@import "styles/order.css";
 
 
 body {
@@ -25,15 +27,5 @@ body {
     flex-grow: 1; /* Карточки займають весь доступний простір в main */
 }
 
-button {
-    cursor: pointer;
-    background-color: #ff6600;
-    color: #fff;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #ff5500;
-}
 
 

@@ -1,12 +1,12 @@
-// Функція для показу повідомлення
-function showNotification(message) {
-    var notification = document.getElementById("notification");
-    notification.textContent = message;
-    notification.style.display = "block";
-    setTimeout(function () {
-        notification.style.display = "none";
-    }, 3000);
-}
+//Функція для показу повідомлення
+// function showNotification(message) {
+//     var notification = document.getElementById("notification");
+//     notification.textContent = message;
+//     notification.style.display = "block";
+//     setTimeout(function () {
+//         notification.style.display = "none";
+//     }, 3000);
+// }
 
 // Функція для обробки натискання кнопки "Купити"
 function addToCart() {
@@ -25,5 +25,7 @@ function addToCart() {
 }
 
 // Додати обробку натискання кнопки "Купити"
-var buyButton = document.querySelector('.bike-card button:first-of-type');
-buyButton.addEventListener('click', addToCart);
+var buyButtons = document.querySelectorAll('.bike-card button:first-of-type');
+buyButtons.forEach(function(button) {
+    button.addEventListener('click', addToCart);
+  });

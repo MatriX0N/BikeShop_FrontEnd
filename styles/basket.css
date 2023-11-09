@@ -17,9 +17,23 @@
   padding: 5px 10px;
   font-size: 16px;
   position: absolute;
-  top: -5px;
+  top: -35px;
   right: -5px;
 }
+.cart-count-container-index {
+  position: relative;
+  display: inline-block;
+}
+.cart-count-index {
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 16px;
+  position: absolute;
+  right: -15px;
+}
+
 
 
 .notification {
@@ -43,3 +57,61 @@
   from { right: 10px; }
   to { right: -200px; }
 }
+
+.quantity-container {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0; 
+  width: 100%; 
+  text-align: center; 
+  flex-direction: row; 
+}
+
+.button-container button {
+  margin: 10px;
+  width: 300px;
+  background-color: #ff6600;
+}
+
+.button-container button:hover {
+  background-color: #d84800;
+}
+
+
+
+label[for="quantity"] {
+  margin-right: 10px;
+}
+
+button.decrement,
+button.increment {
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 7px;
+  padding-top: 6px;
+}
+
+input[type="number"] {
+  font-size: 14px;
+  width: 30px;
+  text-align: center;
+}
+

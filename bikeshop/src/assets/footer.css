@@ -1,0 +1,83 @@
+footer {
+    height: 110px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+    align-items: center; 
+     
+}
+
+
+
+#project_info{
+    align-items: left; 
+    margin-left: 79px;
+}
+
+#project_info h2 {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 2px;
+}
+
+#project_info h2:nth-of-type(2),
+#project_info h2:nth-of-type(3) {
+    font-family: 'Calibri', sans-serif;
+    font-weight: normal; /* Зняти ефект bold */
+}
+
+
+.networks{
+    margin-left: 182px;
+    margin-bottom: 18px;
+}
+.networks h2{
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.instagram,
+.facebook,
+.telegram{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+#address{
+    align-items: left; 
+    margin-left: 182px;
+}
+
+#address h2 {
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 2px;
+}
+
+#address h2:nth-of-type(2),
+#address h2:nth-of-type(3) {
+    font-family: 'Calibri', sans-serif;
+    font-weight: normal; /* Зняти ефект bold */
+}
+#copyright {
+    position: absolute;
+    padding-top: 70px;
+    right: 0;
+    margin: 5px;
+}
+#copyright h2{
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}

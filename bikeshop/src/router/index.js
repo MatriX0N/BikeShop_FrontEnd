@@ -5,6 +5,7 @@ import Katalog from '../views/Katalog.vue'
 import GetCode from '../views/Getthecode.vue'
 import EnterCode from '../views/Enterthecode.vue'
 import Characteristics from '../views/Characteristics.vue'
+import Porivn from '../views/hueta.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,10 +36,15 @@ const router = createRouter({
       component: EnterCode
     },
     {
+      path: '/Porivn',
+      name: 'Porivn',
+      component: Porivn
+    },
+    {
       path: '/Characteristics',
       name: 'Characteristics',
       component: Characteristics
-    }
+    },
   ]
 })
 

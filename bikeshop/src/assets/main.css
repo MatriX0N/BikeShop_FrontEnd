@@ -102,3 +102,7 @@ input{
   display: flex;
   margin-bottom: 10px; 
 }
+
+.description-and-char{
+  display: flex;
+}

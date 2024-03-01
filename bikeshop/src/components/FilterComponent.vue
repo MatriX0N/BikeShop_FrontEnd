@@ -22,7 +22,7 @@ export default {
 
 <template>
   <div class="Filter">
-    <div @click="toggleFilter('brand')" class="FilterHeader">
+    <div  class="FilterHeader" @click="toggleFilter('brand')">
       Бренди
       <img
         class="Arrow"

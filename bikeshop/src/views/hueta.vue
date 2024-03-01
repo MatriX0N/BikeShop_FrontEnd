@@ -1,14 +1,14 @@
 <script >
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
-import CharacteristicsComponent from '@/components/CharacteristicsComponent.vue';
+import ComparisonComponent from '@/components/ComparisonComponent.vue';
 
 
 export default {
   components: {
     Header,
     Footer,
-    CharacteristicsComponent,
+    ComparisonComponent
   },
   
 };
@@ -16,6 +16,6 @@ export default {
 
 <template>
   <Header/>
-  <CharacteristicsComponent/>
+  <ComparisonComponent/>
   <Footer/>
 </template>

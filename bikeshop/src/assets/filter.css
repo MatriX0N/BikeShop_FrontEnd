@@ -1,10 +1,12 @@
 .Filter {
-    flex-direction: column;
-    border: 2px solid #ccc;
-    padding: 10px;
-    margin: 10px 0px 0px 0px;
-    width: 458px;
-  }
+  flex-direction: column;
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
+  max-width: 458px;
+  width: 458px;
+  flex: 0 0 auto;
+}
   
   .Arrow {
     transition: transform 0.4s;

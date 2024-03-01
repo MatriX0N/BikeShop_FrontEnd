@@ -1,0 +1,154 @@
+.comparison{
+    margin-top: 47px;
+}
+
+.comparison1{
+    display: flex;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.comparison h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 46px;
+}
+
+.buttoncomparison {
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: #000; /* колір тексту */
+    transition: border-color 0.3s ease; /* анімація для плавного переходу */
+    height: 86px;
+    width: 226px;
+    border-radius: 12px;
+}
+
+.buttoncomparison:hover {
+    border-color: #60AD53; /* колір бордера при наведенні */
+}
+
+.comparisonbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 322px;
+    height: 263px;
+    border: 1px solid #C1BFBD;
+    flex: 0 0 auto;
+}
+
+.buttoncomparison h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+}
+
+.separator {
+    margin:0;
+    border: none;
+    border-top: 1px solid black;
+}
+
+.comparisonbike{
+    display: flex;
+    width: 533px;
+    height: 263px;
+    border: 1px solid #C1BFBD;
+    flex: 0 0 auto;
+}
+
+.comparisoninfo{
+    margin-top: 55px;
+    margin-left: 33px;
+    display: flex;
+}
+
+.comparisoninfo img{
+    height: 132px;
+    width: 220px;
+}
+
+.info1{
+    margin-left: 15px;
+    margin-top: 29px;
+}
+
+.info1 h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    width: 222px;
+}
+.info1 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-top: 17px;
+}
+
+.infobutton {
+    background-color: #60AD53;
+    border-radius: 8px;
+    height: 31px;
+    width: 175px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    border: 0px solid #000000;
+    color: white;
+    transition: font-weight 0.3s ease;
+    font-weight: bold;
+    cursor: pointer; 
+    margin-left:19px;
+    margin-top: 19px;
+}
+
+.infobutton:hover{
+    border: 1px solid #000000;
+    background-color: #42793A;
+}
+
+.characteristics-table-container {
+    overflow-x: auto; /* Додана можливість прокрутки в горизонтальному напрямку */
+    max-width: 100%; /* Максимальна ширина контейнера, за якою буде включена прокрутка */
+}
+
+.characteristics-table {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.characteristics-table td {
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;     
+}
+
+.characteristics-table td.namechar {
+    width: 324px;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+}
+
+.characteristics-table td:not(.namechar) {
+    width: 533px;
+    flex: 0 0 auto;
+}

@@ -34,7 +34,6 @@ export default {
         <input type="text">
         <button class="Auth-Reg-Button">Заєреструватись</button>
         <h2 class="registered" @click="redirectToLoginPage">Я вже заєрестрований</h2>
-
     </form>
   </main>
 </template>

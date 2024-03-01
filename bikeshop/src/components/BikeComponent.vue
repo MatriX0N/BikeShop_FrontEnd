@@ -18,7 +18,7 @@
                 <h2>12 000 ₴</h2>
             </div>
             <div class="button">
-                <button>Купити</button>
+                <button class="bike-button">Купити</button>
                 <img class="card_porivn" id="card_porivn" src="../assets/img/card_porivn.png">
                 <img class="card_like" id="card_like" src="../assets/img/card_like.png">
             </div>

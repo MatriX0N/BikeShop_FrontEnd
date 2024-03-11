@@ -81,6 +81,14 @@
     margin-top: 29px;
 }
 
+.info1 img{
+    height: 11px;
+    width: 11px;
+    float: right;
+    margin-top: -47px;
+    margin-left: 70px;
+}
+
 .info1 h2{
     font-family: 'Inter', sans-serif;
     font-size: 18px;
@@ -141,7 +149,7 @@
 }
 
 .characteristics-table td.namechar {
-    width: 324px;
+    width: 323px;
     text-align: left;
     padding-left: 15px;
     box-sizing: border-box;
@@ -149,6 +157,6 @@
 }
 
 .characteristics-table td:not(.namechar) {
-    width: 533px;
+    width: 532px;
     flex: 0 0 auto;
 }

@@ -16,7 +16,7 @@ export default {
       <h1>Вхід</h1>
         <h2>Введіть код</h2>
           <input type="text">
-      <button>Створити пароль</button>
+      <button class="Auth-Reg-Button">Створити пароль</button>
     </form>
   </main>
 </template>

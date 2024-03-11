@@ -8,7 +8,7 @@ export default {
   },
   methods: {
     redirectToLoginPage() {
-      this.$router.push('/');
+      this.$router.push('/auth');
     }
   },
 };
@@ -21,7 +21,7 @@ export default {
       <h1>Вхід</h1>
         <h2>Введіть ел. пошту</h2>
           <input type="text">
-      <button>Отримати код</button>
+      <button class="Auth-Reg-Button">Отримати код</button>
       <h2 class="registered" @click="redirectToLoginPage">Я згадав пароль</h2>
     </form>
   </main>

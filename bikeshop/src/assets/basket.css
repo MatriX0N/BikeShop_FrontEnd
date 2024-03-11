@@ -1,0 +1,112 @@
+.basketcomponent h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 46px;
+}
+
+.basketbutton{
+    background-color: #60AD53;
+    border-radius: 12px;
+    height: 46px;
+    width: 379px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    border: 0px solid #000000;
+    color: white;
+    transition: font-weight 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1274px;
+    
+  }
+  .basketbutton:hover{
+    border: 1px solid #000000;
+  }
+
+.basketandbutton{
+    display: flex;
+    margin-left: 64px;
+    margin-top: 43px;
+}
+
+.basketbike{
+    display: flex;
+    justify-content: center;
+}
+
+.basketbike img{
+    height: 137px;
+    width: 238px;
+}
+
+.nameandnumber h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minus-and-plus-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    margin-top: -20px;
+}
+
+.minus{
+    margin-top: -26px;
+}
+
+.input{
+    padding-left: 18px;
+    height: 50px;
+    width: 50px;
+    font-size: 22px;
+    border-radius: 8px;
+    outline: none; 
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.basketbike h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-top: 60px;
+    margin-left: 258px;
+}
+
+.separatorbasket{
+    width: 1761px;
+    border: none;
+    border-top: 3px solid #D9D7D6;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+

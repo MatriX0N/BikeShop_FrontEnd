@@ -1,0 +1,55 @@
+.likecomponent h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.likemain{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 1632px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.like-bike-card {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    height: 270px;
+    width: 252px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 9px;
+}
+
+.like-bike-card img{
+    height: 137px;
+    width: 238px;
+    margin-bottom: 11px;
+    cursor: pointer;
+}
+
+.like-bike-card h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 2px;
+}
+
+.name_bike{
+    margin-bottom: 22px;
+}

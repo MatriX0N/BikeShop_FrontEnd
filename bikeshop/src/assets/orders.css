@@ -1,0 +1,292 @@
+.orders-and-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.orders-and-button h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    margin-left: 64px;
+}
+
+.order-button{
+    background-color: white;
+    height: 32px;
+    width: 306px;
+    border: 2px solid #689F38;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.contact-details{
+    margin-left: 64px;
+}
+
+.h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight:lighter;
+    color: #000;
+}
+
+.form-group{
+    margin: 0;
+    margin-right: 15px;
+}
+
+.form-group label{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight:lighter;
+    color: #555555;
+    margin-bottom: 2px;
+}
+
+.form-group input{
+    width: 418px;
+    height: 45px;
+    border: 2px solid #DDDCDB;
+    outline: none; /* Видаляє контур при фокусі */
+}
+.form-group input:focus {
+    border-color: #eee0d1; /* Змінюємо колір рамки тільки при фокусі */
+}
+
+.gear1,
+.gear2{
+display: flex;
+}
+
+.details-and-info{
+    margin: 0;
+    margin-left: 64px;
+    display: flex;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid #DDDCDB;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #DDDCDB;
+    border-color: #DDDCDB;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 2px #fff; /* Змінено значення внутрішнього відступу */
+}
+.mail h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.mail label {
+    display: flex;
+    align-items: center;
+}
+
+.mail input[type="checkbox"] {
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.mail h2, .mail h3 {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.mail h3{
+    margin-left: 15px;
+}
+
+.mail{
+    margin-right: 140px;
+}
+
+.mail img{
+    margin: 0;
+    margin-bottom: 13px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.courier label {
+    display: flex;
+    align-items: center;
+}
+
+.courier h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.courier input[type="checkbox"] {
+    margin: 0;
+    margin-right: 10px;
+    margin-bottom: 12px;
+}
+
+.courier h2, .courier h3 {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.courier h3{
+    margin-left: 15px;
+}
+
+.form-group2 label{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight:600;
+    color: #555555;
+}
+
+.form-group2 input {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #555555;
+    width: 270px;
+    height: 45px;
+    border: 2px solid #DDDCDB;
+    outline: none; /* Видаляє контур при фокусі */
+}
+
+.total-cost{
+    height: 429px;
+    width: 718px;
+    border-radius: 12px;
+    background-color: rgba(221, 220, 219, 0.5);
+    border: 3px solid #60AD53;
+    margin-left: 98px;
+    
+}
+.total-cost h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.separatororder{
+    border: none;
+    border-top: 3px solid #60AD53;
+}
+
+.total-price{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.total-price h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.total-price h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 288px;
+    color: #000;
+}
+
+.shipping-cost{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.shipping-cost h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    width: 124px;
+    text-align: left;
+    margin: 0;
+}
+
+.shipping-cost h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    width: 158px;
+    color: #000;
+    margin: 0;
+    margin-left: 275px;
+    text-align: right;
+}
+
+.total-price2{
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.total-price2 h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.total-price2 h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    margin-left: 359px;
+    color: #000;
+}
+
+.orderbutton{
+    background-color: #60AD53;
+    border-radius: 12px;
+    height: 45px;
+    width: 306px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    border: 0px solid #000000;
+    color: white;
+    transition: font-weight 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0;
+    margin-left: 206px;
+    margin-top: 20px;
+  }
+.orderbutton:hover{
+ border: 1px solid #000000;
+}

@@ -1,0 +1,228 @@
+.personal-cabinet{
+    display: flex;
+}
+.personcabinet{
+    margin-top: 80px;
+    margin-left: 154px;
+}
+.personcabinet h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.personcabinet h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555555;
+    margin: 0;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+.user-data {
+    display: flex;
+    width: 443px;
+    align-items: center;
+}
+
+.user-data h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    font-weight: normal;
+    margin: 0;
+    
+}
+
+.user-data h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    margin: 0;
+    margin-left: auto;
+}
+
+.user-data img {
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.log-out{
+    border-radius: 12px;
+    height: 32px;
+    width: 152px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    border: 2px solid #60AD53;
+    margin-top: 11px;
+    margin-bottom: 12px; 
+}
+
+.log-out:hover{
+    background-color: #CFD7CE;
+}
+
+.return{
+    border-radius: 12px;
+    height: 32px;
+    width: 359px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: #000;
+    font-weight: normal;
+    border: 2px solid #60AD53;
+}
+
+.return:hover{
+    background-color: #CFD7CE;
+}
+
+.log-out, .return {
+    display: block;
+}
+
+.your-orders{
+    margin-top: 80px;
+}
+
+.your-orders h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    margin-left: 500px;
+    margin-bottom: 44px;
+}
+
+.bikeorders{
+    border: 2px solid #555555;
+    width: 1075px;
+    border-radius: 12px;
+    padding-top: 10px;
+    padding-left: 72px;
+    padding-right: 72px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.bike-orders-group{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.bike-orders-group img{
+    height: 137px;
+    width: 238px;
+    margin: 0;
+}
+
+.namebike-and-price h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+}
+
+.namebike-and-price h3{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    margin-top: 29px;
+}
+
+.namebike-and-price{
+    width: 760px;
+    text-align: center;
+    margin-left: 75px;
+    margin-top: 29px;
+}
+
+.window h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group23 input{
+    width: 224px;
+    height: 45px;
+    border: 2px solid #000000;
+    outline: none;
+    margin: 0;
+    margin-bottom: 17px;
+}
+
+.window button{
+    display: block;
+    width: 144px;
+    height: 30px;
+    background-color: #60AD53;
+    color: white;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    border: 0px solid #000000;
+    color: white;
+    transition: font-weight 0.3s ease;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 17px;
+}
+
+.window button:hover{
+    border: 1px solid #000000;
+   }
+
+   .windowVisible .window,
+   .windowVisible .overlay {
+     display: block;
+   }
+   
+   .window {
+     border-radius: 8px;
+     border: 1px solid #000000;
+     width: 240px;
+     padding-left: 8px;
+     padding-right: 8px;
+     z-index: 1000;
+     margin: 0 auto;
+     position: fixed;
+     background-color: #fff;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+   
+   .overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: rgba(0, 0, 0, 0.6); 
+     z-index: 999; 
+
+   }
